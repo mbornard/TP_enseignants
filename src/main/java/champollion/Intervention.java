@@ -7,16 +7,16 @@ public class Intervention {
 	private TypeIntervention type;
     private UE matiere;
     private Enseignant intervenant;
-    private Salle salle;
+    private Salle lieu;
 
-	public Intervention(Date debut, int duree, int heureDebut, TypeIntervention type, UE ue, Salle salle, Enseignant intervention) {
+	public Intervention(Date debut, int duree, int heureDebut, TypeIntervention type, UE ue, Salle lieu, Enseignant intervention) {
 		super();
 		this.debut = debut;
 		this.duree = duree;
 		this.heureDebut = heureDebut;
 		this.type = type;
 		this.matiere = ue;
-		this.salle =salle;
+		this.lieu =lieu;
 		this.intervenant = intervenant;
 	}
 	public Date getDebut() {
